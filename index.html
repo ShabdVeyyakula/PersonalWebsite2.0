@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shabd</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"
+        integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+    <script>
+        AOS.init();
+    </script>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar-fixed-top" style="	z-index: 9999;">
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+                SHABD
+            </div>
+            <div class="menu">
+                <ul>
+                    <li onClick="document.getElementById('home').scrollIntoView();" class="nav-hover">Home</li>
+                    <li onClick="document.getElementById('about').scrollIntoView();" class="nav-hover">About</li>
+                    <li onClick="document.getElementById('facts').scrollIntoView();" class="nav-hover">Facts</li>
+                    <li onClick="document.getElementById('resume').scrollIntoView();" class="nav-hover">Resume</li>
+                    <li onClick="document.getElementById('hobbies').scrollIntoView();" class="nav-hover">Hobbies</li>
+                    <li onClick="document.getElementById('contact').scrollIntoView();" class="nav-hover">Contact</li>
+                </ul>
+            </div>
+        </nav>
+
+        <style>
+            .nav-hover:hover {
+                cursor: pointer;
+            }
+        </style>
+
+
+        <center id="home">
+            <div style="height: 400px;"></div>
+            <div class="container title-section">
+                <div style="padding-top: 22px;"></div>
+                <p class="shining-text">SHABD VEYYAKULA</p>
+            </div>
+        </center>
+
+
+    </header>
+    <!--End of Navbar-->
+
+    <!--Body Content-->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="background-color: rgb(255, 255, 255);">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>About</h2>
+                <p style="  font-style: italic;
+                ">“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more
+                    to take away.” – Antoine de Saint-Exupery.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="20191227_145558 (1).jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Entrepreneur | Developer
+                    </h3>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 28 September 2004
+                                </li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong>
+                                    www.shabdveyyakula.com</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +1209 627 7732</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> City : Mountain House,
+                                    USA</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 15</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong>
+                                    veyyakulashabd@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        I am a 15-year old student attending Mountain House High School. I enjoy developing projects in
+                        my free time and I aspire of being an Entrepreneur. I enjoy learning new things that have
+                        allowed me to create amazing projects in the past. I hope to create even more amazing projects
+                        in the future!
+
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg1" id="facts">
+        <section id="facts" class="facts">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2 style="color: white;">Facts</h2>
+
+                </div>
+
+                <div class="row no-gutters">
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                        <div class="count-box">
+                            <i class="icofont-simple-smile"></i>
+                            <span data-toggle="counter-up" style="color: white;">3</span>
+                            <p style="color: white;"><strong>Years of Coding Experience</strong> </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div class="count-box">
+                            <i class="icofont-document-folder"></i>
+                            <span data-toggle="counter-up" style="color: white;">8</span>
+                            <p style="color: white;"><strong>Projects</strong> </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="count-box">
+                            <i class="icofont-live-support"></i>
+                            <span data-toggle="counter-up" style="color: white;">531</span>
+                            <p style="color: white;"><strong>Git Hub Commits</strong> </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"
+                        data-aos-delay="300">
+                        <div class="count-box">
+                            <i class="icofont-users-alt-5"></i>
+                            <span data-toggle="counter-up" style="color: white;">41</span>
+                            <p style="color: white;"><strong>Git Hub Repos</strong></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Facts Section -->
+    </section><!-- End Skills Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+
+            <div class="section-title">
+                <div class="row">
+                    <h1>Resume</h1>
+                    <div style="width: 20px;"></div>
+                    <a href="ShabdVeyyakula - Resume.PDF" download="">
+                        <button class="btn btn-primary" style="padding-top: -20px;">Download Full Resume</button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h3 class="resume-title">Sumary</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Shabd veyyakula</h4>
+                        <p><em>An enthusiastic developer who is hardworking and effective in the team. Puts in a lot of
+                                effort and makes sure his projects are most optimized for the use of people. looks for
+                                problems that we as humans face in everyday life and look forward to helping users in
+                                the best way possible. Passed with an A in all Computer Science courses and attended
+                                four hackathons winning 2 as of Jan 16, 2020. Looking forward to many more hackathons
+                                and lighting the way for others.
+                            </em></p>
+                        <ul>
+                            <li>1025 S centarl Pkwy</li>
+                            <li>(209) 627-7732</li>
+                            <li>veyyakulashabd@gmail.com</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                        <h4>Mountain House High School</h4>
+                        <h5>2018 - 2022</h5>
+                        <p>As of now I have taken 3 computer science courses and plan on taking more in the upcoming
+                            year! </p>
+
+                    </div>
+                    <h3 class="resume-title">Skills</h3>
+                    <div class="resume-item">
+                        <ul>
+                            <li>Flutter</li>
+                            <li>Andorid Development</li>
+                            <li>Dart</li>
+                            <li>Graphic Design</li>
+                            <li>Python</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Jquery</li>
+                            <li>Node Js</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Professional Experience</h3>
+                    <div class="resume-item">
+                        <h4>Pilot City Intern</h4>
+                        <h5>2020 - Present</h5>
+                        <p><em>San Leanardo, California</em></p>
+                        <ul>
+                            <li>Worked on Class Vibe at Pilot City Hackathons</li>
+                            <li> </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Graphic design specialist</h4>
+                        <h5>2017 - 2018</h5>
+                        <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                        <ul>
+                            <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                                advertisements).</li>
+                            <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                            <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                            <li>Created 4+ design presentations and proposals a month for clients and account managers
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+                        <h4>Accomplishments</h4>
+                        <h5>2017 - 2020</h5>
+                        <p style="font-weight: bold;">Teen Tech Sf</p>
+                        <p><em>San Francisco MakeSchool</em></p>
+                        <h5>1st Place</h5>
+                        <ul>
+                            <li>Here at Teen Tech SF, we have created an app to maximize school safety by preventing any
+                                gun shooting to occur in the future. </li>
+                            <li>M We allow all student to notify the council with the push of a button, but if someone
+                                is in serious threat, they could press the panic button that alarms all users in the
+                                school with an alarm that surely get everyone's attention. </li>
+                            <li> We won 1st place at this hackathon and we entered the Global Teen Tech competition.
+                            </li>
+                            <li> We attended the Teen Tech SF global youth summit where we presented our project live to
+                                others around the world.
+                            </li>
+                        </ul>
+                        <p style="font-weight: bold;">Atoms and Bits</p>
+                        <p><em>Sanfrancisco MakeSchool</em></p>
+                        <h5>2nd Place</h5>
+                        <ul>
+                            <li>Here at Teen Tech SF, we have created an app to maximize school safety by preventing any
+                                gun shooting to occur in the future. </li>
+                            <li>M We allow all student to notify the council with the push of a button, but if someone
+                                is in serious threat, they could press the panic button that alarms all users in the
+                                school with an alarm that surely get everyone's attention. </li>
+                            <li> We won 1st place at this hackathon and we entered the Global Teen Tech competition.
+                            </li>
+                            <li> We attended the Teen Tech SF global youth summit where we presented our project live to
+                                others around the world.
+                            </li>
+                        </ul> 
+                        <a href="https://www.linkedin.com/in/shabd-veyyakula-3b879a195/" target="_blank">
+                            <button class="btn btn-primary" data-aos="fade-up" data-aos-delay="100">View all
+                                Accomplishments</button></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Resume Section -->
+    <!--Start of Projects Sections-->
+    <div class="projects" id="projects">
+        <div class="section-title" style="color: white;" style="padding-top: 50px; padding-left: 70px;">
+            <h2 style="color: white;">Projects</h2>
+        </div>
+        <div class="container">
+
+            <!-- Page Heading -->
+
+
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="save1.PNG" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">Hack Cube</a>
+                            </h4>
+                            <p class="card-text">HackCube is a service for hackathon hosters to have better control of
+                                their Hackathon. Attendees and Hosters have a variety of features.
+                                For example, an attendee can request help from mentors by looking at a list of mentors
+                                who are available.
+                                The hosters have the ability to notify everyone about important updates such as when the
+                                food arrives, etc.</p>
+                            <div class="row">
+                                <div style="width: 20px;"></div>
+                                <a href="https://hackcube.io/"><button class="btn btn-primary">Check Out
+                                        HackCube</button>
+                                </a>
+                                <div style="width: 30px;"></div>
+                                <a href="https://github.com/ShabdVeyyakula/HackerQWebsite">
+
+                                    <img src="data:image/png;base64,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"
+                                        alt="" style="width: 40px;">
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-left" data-aos-delay="100">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="classvibe.PNG" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">Class Vibes</a>
+                            </h4>
+                            <p class="card-text">A service to allow teachers to ask their students how they are feeling.
+                                When the students answer, the teacher gets a real-time graph update with three colors.
+                                Yello for Ok, red for needs help, and green for good.
+                                The teacher also has the ability to schedule a meeting and send announcements to the
+                                class.</p>
+                            <div class="row">
+                                <div style="width: 20px;"></div>
+                                <a href="https://classvibes.netlify.app/"> <button class="btn btn-primary">Check Out
+                                        Class Vibe</button>
+                                </a>
+                                <div style="width: 30px;"></div>
+                                <a href="https://github.com/ShabdVeyyakula/ClassVibe---Pilot-City">
+
+                                    <img src="data:image/png;base64,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"
+                                        alt="" style="width: 40px;">
+
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="devspace.PNG" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">Dev Space</a>
+                            </h4>
+                            <p class="card-text">A social platform for developers to collaborate. DevSpace allows
+                                developers to share their projects,
+                                post-tech-related discussions, and connect with other developers to collaborate on
+                                projects. The app includes a home screen where developers can
+                                view posts and projects of other developers as well as contact them. It is a platform
+                                developers to meet with each other and collaborate on future projects.
+                                There is a direct messaging feature that allows them to contact one another included in
+                                the app.</p>
+                            <a href="">
+
+                                <img src="data:image/png;base64,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"
+                                    alt="" style="width: 40px;">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-left" data-aos-delay="100">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">G- Alert</a>
+                            </h4>
+                            <p class="card-text">An app that allows students in a school to alarms all the other
+                                students if there is a suspicious threat in the school.
+                                For example an active shooter, an unknown person on campus, etc. They have the ability
+                                to view all exit routes and quick contacts to their parents and 911.</p>
+                            <a href="">
+
+                                <img src="data:image/png;base64,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"
+                                    alt="" style="width: 40px;">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">Delivery Deck</a>
+                            </h4>
+                            <p class="card-text">Delivery deck is an app that allows any company to hire regular people
+                                to deliver their products for them.
+                                Its like an uber for delivering products. This would greatly reduce the price instead of
+                                using large postal services such as UPS or Fedex.</p>
+                            <a href="">
+
+                                <img src="data:image/png;base64,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"
+                                    alt="" style="width: 40px;">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-left" data-aos-delay="100">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#">Par Car</a>
+                            </h4>
+                            <p class="card-text">An app that has an interesting methon for reserving parking spaces. The
+                                app works by reserving a parking space.
+                                The driver than parks in that spot and waits there until the other member arrives. When
+                                he/she arrive, they switch spots.
+                                Thus gauranteein your parking spot every time.</p>
+                            <a href="">
+
+                                <img src="data:image/png;base64,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"
+                                    alt="" style="width: 40px;">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-delay="100">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Civita</a>
+                        </h4>
+                        <p class="card-text">An app that allows event hosters to post an event on the app requesting
+                            unpaid volunteering.
+                            This allows a place for students to find opportunities for community service hours to meet
+                            their graduating requirements.</p>
+                        <a href="">
+
+                            <img src="data:image/png;base64,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"
+                                alt="" style="width: 40px;">
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+    </div>
+
+    </div>
+
+
+
+    <!--End of Projects Section-->
+    <!--Start of Gallery Sections-->
+
+    <!--End of Gallery Section-->
+    <div class="container" style="margin-top: 100px;" id="hobbies">
+
+        <div class="section-title" data-aos="fade-right" data-aos-delay="100">
+            <h2>Hobbies</h2>
+            <p>I enjoy playing instruments. I know how to play the Piano, Oboe, Flute, and I am currently trying to self
+                teach myself Guitar. I enjot developing websites in my free time, and I hope to create amazing projecst
+                in the future with my team!</p>
+        </div>
+        <div class="container">
+
+            <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Some of My Pictures</h1>
+
+            <hr class="mt-2 mb-5">
+
+            <div class="row text-center text-lg-left">
+
+                <div class="col-lg-3 col-md-4 col-6" data-aos="fade-in" data-aos-delay="100">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="00100sPORTRAIT_00100_BURST20191215130120101_COVER.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6" data-aos="fade-in" data-aos-delay="400">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="20191005_100638.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100" data-aos="fade-in" data-aos-delay="300">
+                        <img class="img-fluid img-thumbnail" src="20191005_200156.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6" data-aos="fade-in" data-aos-delay="500">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="20191005_215000.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6" data-aos="fade-in" data-aos-delay="700">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="20191012_074738.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100" data-aos="fade-in" data-aos-delay="600">
+                        <img class="img-fluid img-thumbnail" src="20191012_102605.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100" data-aos="fade-in" data-aos-delay="800">
+                        <img class="img-fluid img-thumbnail" src="20200216_121719.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!--End of Body Content-->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; Shabd Veyyakula</small>
+        </div>
+    </footer>
+</body>
+
+</html>
