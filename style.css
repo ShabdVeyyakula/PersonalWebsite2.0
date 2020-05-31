@@ -1444,6 +1444,13 @@ body {
         .nav div.media_button {
             display: block;
         }
+
+        .projects {
+          background-attachment: fixed;
+          background-image: url('nasa-Q1p7bh3SHj8-unsplash.jpg');
+          background-size: 100% 1000px;
+          height: 3000px;
+        }
     }
     
     
@@ -1627,7 +1634,10 @@ $form-bg         : #fff;
   }
 }
 
+@media only screen and (max-width: 600px) 
+  {
 
+  } 
 
 
 //////////////////////////
@@ -1682,7 +1692,7 @@ h1{
     color: #fff;
     text-decoration: none;
     &:hover{
-      text-decoration: underline;
+      text-decoration: underline; 
     }
   }
 }
